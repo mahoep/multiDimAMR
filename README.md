@@ -11,7 +11,7 @@ Rettenmaier, Daniel, et al. "Load balanced 2D and 3D adaptive mesh refinement in
 link:
 https://www.sciencedirect.com/science/article/pii/S2352711018301699
 
-port to the OpenFOAM+ version v1812 and v2006,v2012
+port to the OpenFOAM+ version v1812 and v2006,v2012, v2212
 
 refinement selection algoritm is based on foam extended 4.1
 
@@ -26,6 +26,11 @@ compile the library
 in case of v2012:
 ```
 git checkout v2012
+./Allwmake
+
+in case of v2212:
+```
+git checkout v2212
 ./Allwmake
 ```
 ### Prerequisites
